@@ -1,0 +1,166 @@
+
+/* peremier-border */
+.peremier-border{
+    width: 98%;
+    margin: 1%;
+    background-color: #B7B7B7;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+/* collection */
+.collection{
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    font-size: 38px;
+    position: relative;
+    top: 140px;
+}
+/* obtenez */
+.get-up{
+    font-family: 'Montserrat', sans-serif;
+    color: #442187;
+    font-size: 38px;
+    position: relative;
+    top: 140px;
+}
+/* botton shop now */
+.button{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    height: 45px;
+    padding: 6px;
+    background:cyan;
+    border-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    background: cyan;
+}
+.button:active{
+    background: #51c8d8a8;
+}
+/* image modale */
+.image img{
+    width: 500px;
+    position:relative;
+    left: 390px;
+}
+
+/* banner */
+.banner-category img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
+}
+/* Botton */
+.banner-category a{
+    position: relative;
+    left: 125px;
+    bottom: 310px;
+    text-decoration: none;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.banner-category a:hover{
+    color: #4b979c ;
+}
+
+/* nouvelles arrrivees */
+.nouvelles{
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    font-size: 38px;
+}
+
+/* le botton all */
+.btn-group{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left: 270px;
+}
+/* card */
+.prow{
+    position: relative;
+    top: 70px;
+}
+
+/* card-text */
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: tomato;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+/* btn-cart */
+.btn-cart{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: cyan;
+    border: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 60px;
+}
+/* heart btn */
+.heart{
+    color: rgb(255, 0, 0);
+    position: relative;
+    bottom: 320px;
+    left: 195px;
+}
+/* deal of the week */
+.dealoftheweek{
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.coming-soon img{
+    width: 150px;
+}
+
+.coming-soon{
+    width: 98%;
+    margin: 1%;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(255, 255, 255, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+.day,
+.hours,
+.mins,
+.sec{
+    font-size: 30px;
+
+}
