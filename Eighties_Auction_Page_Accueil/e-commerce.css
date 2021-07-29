@@ -50,7 +50,7 @@
 .image img{
     width: 500px;
     position:relative;
-    left: 390px;
+    left: 200px;
 }
 
 /* banner */
@@ -63,7 +63,7 @@
 /* Botton */
 .banner-category a{
     position: relative;
-    left: 125px;
+    left: 1px;
     bottom: 310px;
     text-decoration: none;
     border: solid 1px rgb(255, 255, 255);
@@ -94,9 +94,14 @@
 }
 /* card */
 .prow{
-    position: relative;
-    top: 70px;
+    margin-top: 100px;
+    justify-content: space-between;
 }
+.drow {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
 
 /* card-text */
 .card-text{
@@ -120,47 +125,142 @@
     padding: 5px;
     border-radius: 5px;
     position: relative;
-    left: 60px;
+    left: 55px;
 }
 /* heart btn */
 .heart{
-    color: rgb(255, 0, 0);
-    position: relative;
+    color: rgb(255 0 0 / 39%);
+    /* position: relative;
     bottom: 320px;
-    left: 195px;
-}
-/* deal of the week */
-.dealoftheweek{
-    font-family: 'Bebas Neue', cursive;
-    color: #442187;
-    font-size: 40px;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-.coming-soon img{
-    width: 150px;
+    left: 180px; */
 }
 
-.coming-soon{
+/* deal of the week */
+.border{
     width: 98%;
-    margin: 15px;
-    padding: 10px;
+    height: 585px;
+    margin: 1%;
     background-color: #F5F5F5;
     border: 1px solid rgba(255, 255, 255, 0);
-    align-items: center;
-    justify-content: center;
 }
 
-.countdown{
-   display: flex;
-   justify-content: space-around;
-   text-align: center;
+
+.image_deal img{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 110px;
 }
-.day,
-.hours,
-.mins,
-.sec{
-    font-size: 30px;
+  
+#headline{
+    font-weight: bold;
+    letter-spacing: 1.125rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    position: relative;
+    bottom: 320px;
+    left: 680px;
+}
+#countdown{
+    position: relative;
+    bottom: 325px;
+    left: 625px;
+}
+.button-2{
+    position: relative;
+    bottom: 335px;
+    left: 850px;
+    height: 45px;
+    padding: 6px;
+    background:cyan;
+    border-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    background: cyan;
+}
+.button:active{
+    background: #51c8d8a8;
+}
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }
+
+
+
+  .best_title{
+    font-weight: bold;
+    letter-spacing: 1.125rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .image_best img{
+      width: 300px;
+      margin: 28px;
+  }
+
+.border-2{
+    width: 100%;
+    margin: 1%;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.service i{
+font-size: 20px;
+}
+.service h3{
+    font-size: 20px;
+    text-align: center;
+}
+.service p{
+    font-size: 20px;
+    text-align: center;
+}
+.service_margin{
+    margin-top: 150px;
 }
