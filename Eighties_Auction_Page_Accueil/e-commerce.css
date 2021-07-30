@@ -1,4 +1,23 @@
+/* nav bar */
+#header_logo_img {
+    height: 60px;
+    width: 60px;
+  }
 
+  .navbar {
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: "Righteous", cursive;
+  }
+
+  a{
+    font-family: "Bebas Neue";
+    color:#442187;
+  }
+
+#img_search{
+    width:30px;
+}
 /* peremier-border */
 .peremier-border{
     width: 98%;
@@ -63,7 +82,7 @@
 /* Botton */
 .banner-category a{
     position: relative;
-    left: 1px;
+    left: 140px;
     bottom: 310px;
     text-decoration: none;
     border: solid 1px rgb(255, 255, 255);
@@ -263,4 +282,5 @@ font-size: 20px;
 }
 .service_margin{
     margin-top: 150px;
+    margin-bottom: 50px;
 }
